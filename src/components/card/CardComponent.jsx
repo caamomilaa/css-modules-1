@@ -1,11 +1,12 @@
 import Button from '../button/Button';
 import styles from './card.module.css';
+import buttonstyles from '../button/button.module.css';
 
 const CardComponent = ({ title, text, src, bgStyle, buttonColor }) => {
 	const cardStyles = `card ${styles[bgStyle]}`;
 	const titleStyles = `title`;
 	const textStyles = `text`;
-	const buttonStyles = `button ${styles[buttonColor]}`;
+	const buttonStyles = `button ${buttonstyles[buttonColor]}`;
 	return (
 		<article className={cardStyles}>
 			<img src={src} alt='' />

@@ -82,7 +82,6 @@ body {
 .button{
   padding: 11px 31.5px 12px 31.5px;
   background-color: var(--primary-color);
-  color: black;
   border: none;
   border-radius: 25px;
 }
@@ -94,6 +93,6 @@ body {
   }
 }
 
-.red{
+.color{
   color: red;
 }
