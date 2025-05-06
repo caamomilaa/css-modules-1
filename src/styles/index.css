@@ -1,0 +1,99 @@
+:root{
+  --first-accent-color: #E28625;
+  --second-accent-color: #006971;
+  --third-accent-color: #004140;
+  --primary-color: #F2F2F2;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  font-family:  "Lexend Deca", sans-serif;
+  background-color: grey;
+  color: var(--primary-color) ;
+  padding: 88px 24px 88px 24px;
+}
+@media screen and (min-width: 768px){
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title{
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 35px 0 25px 0;
+}
+.text{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0 0 25px 0;
+}
+@media screen and (min-width: 768px){
+  .text{
+    margin: 0 0 80px 0;
+  }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px){
+  .container{
+    flex-direction: row;
+  }
+}
+.card{
+  padding: 48px;
+}
+@media screen and (min-width: 768px){
+  .card{
+    padding: 48px 47.5px 48px 47.5px;
+  }
+}
+.button{
+  padding: 11px 31.5px 12px 31.5px;
+  background-color: var(--primary-color);
+  color: black;
+  border: none;
+  border-radius: 25px;
+}
+@media(hover:hover){
+  .button:hover{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+}
+
+.red{
+  color: red;
+}

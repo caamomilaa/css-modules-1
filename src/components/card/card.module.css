@@ -1,0 +1,22 @@
+
+ .sedans{
+    background-color: var(--first-accent-color);
+    border-radius: 8px 8px 0 0;
+ }
+ @media screen and (min-width: 768px){
+    .sedans{
+        border-radius: 8px 0 0 8px;
+     }
+  }
+ .suvs{
+    background-color: var(--second-accent-color);
+ }
+ .luxury{
+    background-color: var(--third-accent-color);
+    border-radius: 0 0 8px 8px;
+ }
+ @media screen and (min-width: 768px){
+    .luxury{
+        border-radius: 0 8px 8px 0;
+     }
+  }
